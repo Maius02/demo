@@ -1,6 +1,8 @@
 #este programa limpia el dataset de espacios, cosas mal escritas y demas
 #el objetivo es que los datos esten uniformes
 
+from cleaner import clean_data
+
 dataset = [
     {
         "name": "Ana Torres      ", 
@@ -39,9 +41,6 @@ dataset = [
         "country": "Colombia"
     },
 ]
-
-#from cleaner import clean_data
-from src import clean_data
 
 print(clean_data(dataset))
 
