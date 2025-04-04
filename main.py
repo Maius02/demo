@@ -41,7 +41,8 @@ dataset = [
 ]
 
 #from cleaner import clean_data
-from src.cleaner import clean_data
+from src import clean_data
+
 print(clean_data(dataset))
 
 
